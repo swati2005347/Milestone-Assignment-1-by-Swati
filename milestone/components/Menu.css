@@ -1,0 +1,99 @@
+/* src/pages/Menu.css */
+
+.menu {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(45deg, #ff5733, #ff9900, #4CAF50); /* Gradient background for the menu */
+}
+
+.menu h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.filters {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center; /* Centers the buttons */
+  gap: 15px; /* Adds space between buttons */
+}
+
+.filters button {
+  background-color: #fff;
+  color: #333;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.filters button:hover {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.menu-item {
+  width: 250px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.menu-item img:hover {
+  transform: scale(1.1);
+}
+
+.menu-item h3 {
+  font-size: 1.25rem;
+  color: #333;
+  margin-top: 15px;
+}
+
+.menu-item p {
+  font-size: 1rem;
+  color: #666;
+  margin: 10px 0;
+}
+
+.menu-item button {
+  margin-top: 10px;
+  background-color: #ff5733;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.menu-item button:hover {
+  background-color: #e74c3c;
+}

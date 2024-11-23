@@ -1,0 +1,93 @@
+/* src/pages/About.css */
+
+.about-container {
+  padding: 50px 20px;
+  background: linear-gradient(to right, #ff9900, #ffcc33);
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.about-header p {
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-text {
+  flex: 1;
+  font-size: 1.1rem;
+  color: #fefefe;
+  line-height: 1.8;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.about-text p {
+  margin-bottom: 20px;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-footer {
+  text-align: center;
+  margin-top: 50px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-footer h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-footer li {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.about-footer li::before {
+  content: "✔️ ";
+  color: #ff9900;
+}
+
+.about-footer li:hover {
+  color: #ff9900;
+  cursor: pointer;
+}

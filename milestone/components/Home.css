@@ -1,0 +1,131 @@
+/* src/pages/Home.css */
+
+.home {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(45deg, #ff5733, #4CAF50, #ff9900); /* Gradient from orange to green to yellow */
+  font-family: 'Arial', sans-serif;
+  background-size: 400% 400%;
+  animation: gradientBackground 10s ease infinite;
+}
+
+@keyframes gradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.home h1 {
+  font-size: 3.5rem;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 1.6rem;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.featured {
+  margin-top: 40px;
+}
+
+.featured h2 {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.menu-item {
+  background-color: #fff;
+  border-radius: 15px;
+  width: 250px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.menu-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.menu-item img:hover {
+  transform: scale(1.1); /* Slight zoom effect on image hover */
+}
+
+.menu-item h3 {
+  font-size: 1.75rem;
+  color: #333;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.menu-item p {
+  font-size: 1.1rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.menu-item a {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #ff5733;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.3s ease;
+}
+
+.menu-item a:hover {
+  background-color: #e74c3c; /* Darker red-orange */
+  transform: scale(1.05); /* Slight button size increase on hover */
+  cursor: pointer;
+}
+
+.promotions {
+  margin-top: 50px;
+  font-size: 1.5rem;
+  color: #ff9900; /* Vibrant yellow-orange */
+  font-weight: 600;
+}
+
+.footer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.footer p {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+}

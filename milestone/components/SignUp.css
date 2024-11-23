@@ -1,0 +1,80 @@
+/* src/pages/SignUp.css */
+.signup {
+  background: linear-gradient(to right, #ff7f50, #ff1493); /* Vibrant gradient background */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.signup-container h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.signup-container p {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #ff1493;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background-color: #ff1493;
+  color: white;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff7f50;
+}
+
+.already-member {
+  margin-top: 20px;
+  color: #333;
+}
+
+.already-member a {
+  color: #ff1493;
+  text-decoration: none;
+}
+
+.already-member a:hover {
+  text-decoration: underline;
+}

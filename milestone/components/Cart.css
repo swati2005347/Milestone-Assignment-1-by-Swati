@@ -1,0 +1,133 @@
+/* src/pages/Cart.css */
+
+.cart-container {
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #ff5733, #ff9900, #4CAF50); /* Gradient background */
+  font-family: 'Arial', sans-serif;
+  color: white; /* Ensures the text stands out */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cart-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cart-header h1 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.cart-header p {
+  font-size: 1.1rem;
+  color: #eee;
+}
+
+.cart-items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cart-item:hover {
+  transform: scale(1.03); /* Subtle zoom effect on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.item-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item-details {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.item-details h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.item-details p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.quantity-controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.quantity-controls button {
+  background-color: #ff9900;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.quantity-controls button:hover {
+  background-color: #e68900;
+}
+
+.cart-total {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.checkout-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.checkout-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.checkout-button:hover {
+  background-color: #45a049;
+}
+
+.remove-item-button {
+  background-color: #ff3333;
+  color: white;
+  padding: 8px 15px;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.remove-item-button:hover {
+  background-color: #e62e2e;
+}

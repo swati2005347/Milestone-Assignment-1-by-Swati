@@ -1,0 +1,132 @@
+/* src/pages/Contact.css */
+
+.contact-container {
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient background */
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh; /* Ensure it covers the whole height of the screen */
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-header h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for better readability */
+}
+
+.contact-header p {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-form:hover {
+  transform: scale(1.03); /* Add a hover effect for form */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: none;
+  border-color: #ff7e5f;
+  box-shadow: 0 0 8px rgba(255, 126, 95, 0.4); /* Focus border and shadow effect */
+}
+
+.form-textarea {
+  height: 150px;
+}
+
+.submit-button {
+  width: 100%;
+  background-color: #ff7e5f;
+  color: white;
+  padding: 15px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #feb47b;
+}
+
+.contact-info {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contact-info h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.contact-info a {
+  color: #ff7e5f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+  color: #feb47b; /* Change color on hover for better effect */
+}
+
+/* Responsive Design for small screens */
+@media (max-width: 768px) {
+  .contact-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+
+  .form-input,
+  .form-textarea {
+    padding: 12px;
+  }
+
+  .submit-button {
+    padding: 12px;
+  }
+
+  .contact-info h2 {
+    font-size: 1.6rem;
+  }
+}
